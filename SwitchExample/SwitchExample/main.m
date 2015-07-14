@@ -16,27 +16,32 @@ int main(int argc, const char * argv[])
         // create a variable
         int stormCategory = 4;
         
-        // some time later, we'll check it (using these if statements)
         
-        if (stormCategory == 1) {
-            NSLog(@"Time to get indoors.");
+        switch (stormCategory) {
+            case 1:
+                NSLog(@"Time to get indoors.");
+                break;
+                
+            case 2:
+                NSLog(@"Extensive damage - run and hide!");
+                break;
+                
+            case 3:
+                NSLog(@"Devastating damage! Oh No!");
+                break;
+                
+            case 4:
+                // case 4 falls into case 5 since there is no "break"
+            case 5:
+                NSLog(@"Catastrophic damage!  Game Over Man, Game Over!");
+                break;
+                
+            default:
+                NSLog(@"Readings are off the scale.  We haven't encountered this phenomenon before!");
+                break;
         }
         
-        if (stormCategory == 2) {
-            NSLog(@"Extensive damage - run and hide!");
-        }
         
-        if (stormCategory == 3) {
-            NSLog(@"Devastating damage! Oh No!");
-        }
-        
-        if (stormCategory == 4 || stormCategory == 5) {
-            NSLog(@"Catastrophic damage!  Game Over Man, Game Over!");
-        }
-        
-        if (stormCategory < 1 || stormCategory > 5) {
-            NSLog(@"Readings are off the scale.  We haven't encountered this phenomenon before!");
-        }
         
     }
     return 0;
