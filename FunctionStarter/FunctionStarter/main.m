@@ -8,16 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+// This function was created by the refactoring function of XCode
+void myFunction(void) {
+    // a simple loop
+    for (int i = 1; i < 5000; i++) {
+        if (i % 5 == 0) {
+            continue; // skip multiples of 5
+        }
+        NSLog(@"The value of the index is %i", i);
+    }
+}
+
 int main(int argc, const char * argv[]) {
 
     @autoreleasepool {
-        // a simple loop
-        for (int i = 1; i < 5000; i++) {
-            if (i % 5 == 0) {
-                continue; // skip multiples of 5
-            }
-            NSLog(@"The value of the index is %i", i);
-        }
+        myFunction();
         
     }
     return 0;
