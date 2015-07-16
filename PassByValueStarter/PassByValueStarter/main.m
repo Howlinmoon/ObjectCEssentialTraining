@@ -14,6 +14,12 @@ void performAddition(int scoreParameter) {
     NSLog(@"Inside the function, the value is now: %i", scoreParameter);
 }
 
+// this function takes the same int - and returns the modified version
+int performAddition2(int scoreParameter) {
+    scoreParameter += 5000;
+    NSLog(@"Inside the new function, the value is now: %i", scoreParameter);
+    return scoreParameter;
+}
 
 int main(int argc, const char * argv[])
 {
@@ -29,7 +35,10 @@ int main(int argc, const char * argv[])
         // write out the value
         NSLog(@"Back in main, highScore is: %i", highScore);
 
-        
+        highScore = performAddition2(highScore);
+        // write out the value
+        NSLog(@"Back in main, highScore is: %i", highScore);
+       
         
     }
     return 0;
