@@ -13,6 +13,22 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
+        char firstLetter = 'h';  // use single quotes for chars
+        char anotherLetter = '!';
+        char someDigit = '6';
+        
+        // print them out
+        NSLog(@"My chars are %c, %c and %c", firstLetter, anotherLetter, someDigit);
+        
+        // You can do BOOL in this non-recommended fashion
+        bool recommended = false;
+        
+        // But you really should do it like this:
+        
+        BOOL isThisTheRightWay = YES;
+        
+        NSLog(@"Old non-recommended style: %i, new ObjectiveC style: %i", recommended, isThisTheRightWay);
+        
 
         
     }
