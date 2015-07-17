@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[])
-{
+int main(int argc, const char * argv[]) {
 
     @autoreleasepool {
 
@@ -19,6 +18,8 @@ int main(int argc, const char * argv[])
         // did anything happen?
         NSLog(@"The NSString objects are %@ and %@", message, shoutyMessage);
 
+        NSDate *today = [NSDate date];
+        NSLog(@"The new NSDate object is: %@", today);
         
     }
     return 0;
