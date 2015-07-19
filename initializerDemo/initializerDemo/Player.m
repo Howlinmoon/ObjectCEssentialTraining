@@ -10,20 +10,16 @@
 
 @implementation Player
 - (id)init {
-    // call the master init for all objects
-    self = [super init];
-    // did the init work?
-    if (self != nil) {
-        // yes - customization goes here
-        NSLog(@"You called the init method for Player!");
-        
-        _score = 5000;
-    }
+    // The default
+    NSLog(@"You called the init default method");
+    self = [self initWithInteger:5010];
     return self;
 }
 
+// The designated initializer - the real workhorse
 - (id)initWithInteger: (int) initialScore {
-    // call the master init for all objects
+    // our custom init
+
     self = [super init];
     // did the init work?
     if (self != nil) {
