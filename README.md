@@ -2,7 +2,6 @@
 
 
 
-Don't forget
 Start here next time:
-http://www.lynda.com/Objective-C-tutorials/Creating-your-own-classes/143328/156999-4.html
+http://www.lynda.com/Objective-C-tutorials/Adding-methods/143328/157000-4.html
 
