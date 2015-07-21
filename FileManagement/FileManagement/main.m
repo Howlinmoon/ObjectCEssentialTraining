@@ -34,7 +34,7 @@ int main(int argc, const char * argv[]) {
         
         // enumerate through them
         for (NSString *key in fileAttributes) {
-            NSLog(@"The attribute key is %@", key);
+            NSLog(@"The attribute key is %@ and the value of that is: %@", key, fileAttributes[key]);
         }
         
         
