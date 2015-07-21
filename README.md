@@ -2,6 +2,6 @@
 
 
 
-Start here next time:
-http://www.lynda.com/Objective-C-tutorials/Fast-enumeration/143328/157008-4.html
+Start here next time: (finish here)
+http://www.lynda.com/Objective-C-tutorials/Finding-user-dictionaries/143328/157011-4.html
 
