@@ -27,6 +27,18 @@ int main(int argc, const char * argv[]) {
             return 1;
         }
         
+        // examine the attributes of the file as a dictionary
+        NSDictionary *fileAttributes = [fileManager
+                                        attributesOfItemAtPath:simplePath
+                                        error:Nil];
+        
+        // enumerate through them
+        for (NSString *key in fileAttributes) {
+            NSLog(@"The attribute key is %@", key);
+        }
+        
+        
+        
     }
     return 0;
 }
