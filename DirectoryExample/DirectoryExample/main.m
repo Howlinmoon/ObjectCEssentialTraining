@@ -19,8 +19,10 @@ int main(int argc, const char * argv[])
         // Simple function call to determine the users home directory
         NSString *homeDirectory = NSHomeDirectory();
         NSLog(@"Calling NSHomeDirectory() results in: %@", homeDirectory);
+        
+        
         NSString *desktopPath = [homeDirectory stringByAppendingPathComponent:@"Desktop"];
-        NSLog(@"Path is now: %@", desktopPath);
+        NSLog(@"Desktop path is now: %@", desktopPath);
         
         
         
