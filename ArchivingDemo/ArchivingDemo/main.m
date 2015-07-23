@@ -30,6 +30,15 @@ int main(int argc, const char * argv[]) {
         NSLog(@"First Employee: %@", [bob description]);
         NSLog(@"Second Employee: %@", alice);
         
+        // Todo save code here
+        // create an array to hold our employees
+        NSMutableArray *employees = [[NSMutableArray alloc] init];
+        // add our employees
+        [employees addObject:bob];
+        [employees addObject:alice];
+        
+        // Save the array
+        [NSKeyedArchiver archiveRootObject:employees toFile:@"/Users/biff/Documents/employees.plist"];
     }
     return 0;
 }
