@@ -2,6 +2,6 @@
 
 
 
-Start here next time: (finish here)
-http://www.lynda.com/Objective-C-tutorials/Archiving-custom-objects-file/143328/157014-4.html
+Start here next time: 
+http://www.lynda.com/Objective-C-tutorials/Inheritance-overriding-Objective-C/143328/157017-4.html
 
