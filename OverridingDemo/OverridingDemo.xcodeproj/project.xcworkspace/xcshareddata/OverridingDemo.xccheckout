@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>912F99CF-22BD-4698-BBF7-0F166E2318A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OverridingDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>792323CD-5855-4838-A9AB-142391CF5B0C</key>
+		<string>https://github.com/Howlinmoon/ObjectCEssentialTraining.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OverridingDemo/OverridingDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>792323CD-5855-4838-A9AB-142391CF5B0C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Howlinmoon/ObjectCEssentialTraining.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>792323CD-5855-4838-A9AB-142391CF5B0C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>792323CD-5855-4838-A9AB-142391CF5B0C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ObjectiveCEssential</string>
+		</dict>
+	</array>
+</dict>
+</plist>
