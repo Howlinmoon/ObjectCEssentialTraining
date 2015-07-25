@@ -12,9 +12,8 @@
 
 @property NSString *accountName;
 @property int accountNumber;
-@property NSDecimalNumber *balance;
+@property (readonly) NSDecimalNumber *balance;
 
 -(void) deposit: (NSDecimalNumber *) amount;
 -(void) withdraw: (NSDecimalNumber *) amount;
-
 @end

@@ -34,6 +34,7 @@
 		96685BEB1B63B42700251367 /* ClassExtensionDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ClassExtensionDemo.1; sourceTree = "<group>"; };
 		96685BF21B63B49B00251367 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		96685BF31B63B49B00251367 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		96685BF51B63B94400251367 /* Account_PrivateProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Account_PrivateProperties.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +77,10 @@
 		96685BE61B63B42700251367 /* ClassExtensionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				96685BE71B63B42700251367 /* main.m */,
 				96685BF21B63B49B00251367 /* Account.h */,
 				96685BF31B63B49B00251367 /* Account.m */,
+				96685BE71B63B42700251367 /* main.m */,
+				96685BF51B63B94400251367 /* Account_PrivateProperties.h */,
 				96685BEB1B63B42700251367 /* ClassExtensionDemo.1 */,
 				96685BE91B63B42700251367 /* Supporting Files */,
 			);

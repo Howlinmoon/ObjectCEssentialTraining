@@ -7,6 +7,7 @@
 //
 
 #import "Account.h"
+#import "Account_PrivateProperties.h"
 
 @implementation Account
 -(id) init {
