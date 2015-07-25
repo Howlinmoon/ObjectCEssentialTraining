@@ -7,7 +7,15 @@
 //
 
 #import "Account.h"
-#import "Account_PrivateProperties.h"
+
+// Added from the old extension file
+@interface Account ()
+// transfered from the normal class header file for Account
+// into here for safe keeping
+@property NSDecimalNumber *balance;
+
+@end
+
 
 @implementation Account
 -(id) init {
