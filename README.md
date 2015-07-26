@@ -2,9 +2,7 @@
 
 
 
-=======
-Start here next time I feel like coding: 
-http://www.lynda.com/Objective-C-tutorials/Using-protocols/143328/157020-4.html
+Start here next time: 
+http://www.lynda.com/Objective-C-tutorials/Dynamic-typing-Objective-C/143328/157021-4.html
 
-This should work now
 
