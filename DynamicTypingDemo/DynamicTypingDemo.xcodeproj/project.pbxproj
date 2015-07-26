@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B6AD471B659FD300412644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B6AD461B659FD300412644 /* Foundation.framework */; };
+		96B6AD4A1B659FD300412644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B6AD491B659FD300412644 /* main.m */; };
+		96B6AD4E1B659FD300412644 /* DynamicTypingDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96B6AD4D1B659FD300412644 /* DynamicTypingDemo.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96B6AD411B659FD300412644 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				96B6AD4E1B659FD300412644 /* DynamicTypingDemo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96B6AD431B659FD300412644 /* DynamicTypingDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicTypingDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B6AD461B659FD300412644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96B6AD491B659FD300412644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96B6AD4C1B659FD300412644 /* DynamicTypingDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicTypingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		96B6AD4D1B659FD300412644 /* DynamicTypingDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DynamicTypingDemo.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B6AD401B659FD300412644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B6AD471B659FD300412644 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B6AD3A1B659FD300412644 = {
+			isa = PBXGroup;
+			children = (
+				96B6AD481B659FD300412644 /* DynamicTypingDemo */,
+				96B6AD451B659FD300412644 /* Frameworks */,
+				96B6AD441B659FD300412644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B6AD441B659FD300412644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B6AD431B659FD300412644 /* DynamicTypingDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B6AD451B659FD300412644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B6AD461B659FD300412644 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B6AD481B659FD300412644 /* DynamicTypingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				96B6AD491B659FD300412644 /* main.m */,
+				96B6AD4D1B659FD300412644 /* DynamicTypingDemo.1 */,
+				96B6AD4B1B659FD300412644 /* Supporting Files */,
+			);
+			path = DynamicTypingDemo;
+			sourceTree = "<group>";
+		};
+		96B6AD4B1B659FD300412644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96B6AD4C1B659FD300412644 /* DynamicTypingDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B6AD421B659FD300412644 /* DynamicTypingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B6AD511B659FD300412644 /* Build configuration list for PBXNativeTarget "DynamicTypingDemo" */;
+			buildPhases = (
+				96B6AD3F1B659FD300412644 /* Sources */,
+				96B6AD401B659FD300412644 /* Frameworks */,
+				96B6AD411B659FD300412644 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicTypingDemo;
+			productName = DynamicTypingDemo;
+			productReference = 96B6AD431B659FD300412644 /* DynamicTypingDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B6AD3B1B659FD300412644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jim Veneskey";
+			};
+			buildConfigurationList = 96B6AD3E1B659FD300412644 /* Build configuration list for PBXProject "DynamicTypingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96B6AD3A1B659FD300412644;
+			productRefGroup = 96B6AD441B659FD300412644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B6AD421B659FD300412644 /* DynamicTypingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B6AD3F1B659FD300412644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B6AD4A1B659FD300412644 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96B6AD4F1B659FD300412644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96B6AD501B659FD300412644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96B6AD521B659FD300412644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicTypingDemo/DynamicTypingDemo-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96B6AD531B659FD300412644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicTypingDemo/DynamicTypingDemo-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B6AD3E1B659FD300412644 /* Build configuration list for PBXProject "DynamicTypingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B6AD4F1B659FD300412644 /* Debug */,
+				96B6AD501B659FD300412644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B6AD511B659FD300412644 /* Build configuration list for PBXNativeTarget "DynamicTypingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B6AD521B659FD300412644 /* Debug */,
+				96B6AD531B659FD300412644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B6AD3B1B659FD300412644 /* Project object */;
+}
