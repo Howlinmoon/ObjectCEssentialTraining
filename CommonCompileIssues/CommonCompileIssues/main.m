@@ -15,11 +15,10 @@ int main(int argc, const char * argv[]) {
         NSLog(@"The string is %@", myString);
         
         // Issue #2
-//        int a = 5, b = 10;
-//        if ( a == b ) {
-//        {
-//            NSLog(@"Yes, they're equal")
-//        }
+        int a = 5, b = 10;
+        if ( a == b ) {
+            NSLog(@"Yes, they're equal");
+        }
         
         // Issue #3 - you need the #import statement for this to work.
 //        MyNewClass *myObj = [[MyNewClass alloc] init];
