@@ -11,8 +11,8 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         // Issue #1
-//        NSString myString = [NSString stringWithFormat:@"Here's the first problem!"];
-//        NSLog(@"The string is %@", myString);
+        NSString *myString = [NSString stringWithFormat:@"Here's the first problem!"];
+        NSLog(@"The string is %@", myString);
         
         // Issue #2
 //        int a = 5, b = 10;
